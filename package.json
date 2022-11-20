@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-emailer",
+  "version": "1.0.0",
+  "description": "expressjs emailer with template html js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "expressjs",
+    "emailer",
+    "nodemailer",
+    "handlebars",
+    "template"
+  ],
+  "author": "mertarinci",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.8.0"
+  }
+}
